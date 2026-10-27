@@ -1,0 +1,24 @@
+# A ogni tag v* (es. v1.0) genera dist/SoF.html e lo pubblica come file della Release.
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Genera il file unico
+        run: python3 build.py "$GITHUB_REF_NAME"
+
+      - name: Crea la Release con SoF.html
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/SoF.html --title "$GITHUB_REF_NAME" --generate-notes
