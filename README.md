@@ -3,9 +3,11 @@
 Esercizi per imparare la teoria musicale e il manico della chitarra: scale, circolo delle
 quarte, intervalli, triadi e note sul manico. Funziona offline, senza installare nulla.
 
+![Esercizio sulle triadi](docs/screenshot.png)
+
 ## Come usarlo
 
-1. **Scarica il file** [SoF.html](https://github.com/<utente>/SoF/releases/latest/download/SoF.html)
+1. **Scarica il file** [SoF.html](https://github.com/leolmi/SoF/releases/latest/download/SoF.html)
    (è sempre l'ultima versione).
 2. **Aprilo con doppio clic**: si apre nel browser, anche senza connessione a internet.
 3. **Scegli un esercizio** dal menu a sinistra.
@@ -14,7 +16,7 @@ quarte, intervalli, triadi e note sul manico. Funziona offline, senza installare
    - la volta successiva passi alla domanda seguente.
 
 La versione che hai è scritta in fondo al menu (es. `v1.2`). Per sapere se ce n'è una
-più recente guarda la [pagina delle versioni](https://github.com/<utente>/SoF/releases);
+più recente guarda la [pagina delle versioni](https://github.com/leolmi/SoF/releases);
 per aggiornare basta scaricare di nuovo il file dallo stesso link.
 
 ## Gli esercizi
